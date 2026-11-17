@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>食光筆記</title>
+<meta name="description" content="食光筆記：私人的數位料理手帳，食譜與照片存在使用者自己的 Google 雲端硬碟。">
+<style>
+  :root { --paper:#F1E8D8; --card:#FBF6EC; --green:#2F4A3A; --wine:#7A2E2E; --text:#2A2420; --sub:#5C5146; --line:#D3C4A8; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--text); font-family: "Noto Serif TC", "Songti TC", serif; line-height: 1.8; }
+  main { max-width: 680px; margin: 0 auto; padding: 40px 20px 64px; }
+  .eyebrow { color: var(--wine); letter-spacing: .35em; font-size: 12px; }
+  h1 { margin: 8px 0 4px; padding: 10px 0; border-top: 1px solid var(--green); border-bottom: 4px double var(--green); color: var(--green); font-size: 40px; letter-spacing: .12em; }
+  .lead { color: var(--sub); font-style: italic; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: 18px 20px; margin-top: 22px; }
+  h2 { margin: 0 0 6px; color: var(--green); font-size: 19px; letter-spacing: .2em; }
+  ul { padding-left: 1.2em; margin: 6px 0; }
+  a { color: var(--wine); }
+  footer { margin-top: 32px; color: var(--sub); font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="eyebrow">RECIPE JOURNAL</div>
+  <h1>食光筆記</h1>
+  <p class="lead">收藏喜歡的味道，寫下自己的拿手菜。</p>
+
+  <section>
+    <h2>這是什麼</h2>
+    <p>《食光筆記》是一個私人使用的 Android 料理手帳 App，用來記錄食譜、食材、步驟、照片與料理心得。它不是公開服務，不在 Google Play 上架，也沒有註冊或社群功能。</p>
+  </section>
+
+  <section>
+    <h2>資料存在哪裡</h2>
+    <ul>
+      <li>食譜存在使用者<strong>自己的 Google 雲端硬碟</strong>中，由 App 建立的「食光筆記」資料夾與試算表。</li>
+      <li>照片也存在同一個資料夾，維持私人權限，不會產生公開連結。</li>
+      <li>App 沒有自己的伺服器，不會把資料傳給開發者或任何第三方。</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>需要的 Google 權限</h2>
+    <ul>
+      <li><code>drive.file</code>：只能存取 App 自己建立的檔案，看不到雲端硬碟裡的其他資料。</li>
+      <li><code>userinfo.email</code>：在 App 中顯示目前連結的帳號。</li>
+    </ul>
+  </section>
+
+  <footer>
+    <a href="privacy.html">隱私權政策</a>
+  </footer>
+</main>
+</body>
+</html>
